@@ -1,0 +1,38 @@
+# LokMC — Git Ignore
+
+# Environment & secrets
+.env
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+
+# Node
+node_modules/
+frontend/.svelte-kit/
+frontend/build/
+.DS_Store
+
+# Docker
+docker/backups/
+docker/logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Server data (user-specific)
+backend/servers/
+backend/backups/
+backend/data/

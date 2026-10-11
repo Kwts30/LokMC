@@ -1,0 +1,16 @@
+{
+  "name": "lokmc",
+  "version": "0.1.0",
+  "description": "LokMC — Secure Minecraft Server Management Panel",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/run-backend.js",
+    "dev": "node scripts/run-backend.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "node scripts/run-backend.js",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview"
+  },
+  "keywords": ["minecraft", "server", "management", "panel", "security"],
+  "license": "GPL-3.0-or-later"
+}
